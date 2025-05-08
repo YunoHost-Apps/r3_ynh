@@ -1,5 +1,5 @@
 [Unit]
-Description=R3
+Description=R3: Build and host powerful applications
 After=network.target
 
 [Service]
