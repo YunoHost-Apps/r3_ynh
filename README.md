@@ -4,7 +4,7 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/r3.png" width="32px" alt="Logo of REI3">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/rei3.png" width="32px" alt="Logo of REI3">
   REI3, packaged for YunoHost
 </h1>
 
@@ -12,28 +12,28 @@ Build and host powerful applications with full control and ownership
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://rei3.de/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.rei3.de/#/home)
-[![Version: 3.10.4~ynh1](https://img.shields.io/badge/Version-3.10.4~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/r3/)
+[![Version: 3.10.4~ynh1](https://img.shields.io/badge/Version-3.10.4~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/rei3/)
 
 <div align="center">
-<a href="https://apps.yunohost.org/app/r3"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
-<a href="https://github.com/YunoHost-Apps/r3_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
+<a href="https://apps.yunohost.org/app/rei3"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
+<a href="https://github.com/YunoHost-Apps/rei3_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
 ## 📦 Developer info
 
-[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/r3)](https://ci-apps.yunohost.org/ci/apps/r3/)
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/rei3)](https://ci-apps.yunohost.org/ci/apps/rei3/)
 
 🛠️ Upstream REI3 repository: <https://github.com/r3-team/r3>
 
-Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/r3_ynh/tree/testing).
+Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/rei3_ynh/tree/testing).
 
 The `testing` branch can be tested using:
 ```
 # fresh install:
-sudo yunohost app install https://github.com/YunoHost-Apps/r3_ynh/tree/testing
+sudo yunohost app install https://github.com/YunoHost-Apps/rei3_ynh/tree/testing
 
 # upgrade an existing install:
-sudo yunohost app upgrade r3 -u https://github.com/YunoHost-Apps/r3_ynh/tree/testing
+sudo yunohost app upgrade rei3 -u https://github.com/YunoHost-Apps/rei3_ynh/tree/testing
 ```
 
 ### 📚 App packaging documentation
