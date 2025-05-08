@@ -1,0 +1,34 @@
+{
+	"cluster": {
+		"nodeId": ""
+	},
+	"db": {
+		"embedded": false,
+		"host": "localhost",
+		"port": 5432,
+		"name": "__DB_NAME__",
+		"user": "__DB_USER__",
+		"pass": "__DB_PWD__",
+		"ssl": false,
+		"sslSkipVerify": false,
+		"connsMax": 0,
+		"connsMin": 0
+	},
+	"mirror": false,
+	"paths": {
+		"certificates": "__DATA_DIR__/certificates/",
+		"embeddedDbBin": "pgsql16/bin/",
+		"embeddedDbData": "__DATA_DIR__/database/",
+		"files": "__DATA_DIR__/files/",
+		"temp": "__DATA_DIR__/temp/",
+		"transfer": "__DATA_DIR__/transfer"
+	},
+	"portable": false,
+	"web": {
+		"cert": "",
+		"key": "",
+		"listen": "127.0.0.1",
+		"port": __PORT__,
+		"tlsMinVersion":"1.2"
+	}
+}
