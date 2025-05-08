@@ -1,12 +1,11 @@
 [Unit]
-Description=REI3: Build and host powerful applications
+Description=REI3: build and host powerful applications
 After=network.target
 
 [Service]
 Type=simple
 User=__APP__
 Group=__APP__
-EnvironmentFile=-/etc/sysconfig/rei3
 WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/r3
 StartLimitInterval=5
